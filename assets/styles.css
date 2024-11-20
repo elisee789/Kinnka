@@ -392,6 +392,15 @@ html {
   }
 }
 
+@media (max-width:280px) {
+  .order-button {
+      padding: 0.1rem 0.7rem;
+      font-size: 0.5rem;
+      border-radius: 30px;
+      /* margin-left: 2px; */
+      
+  }
+}
 /*COMMANDER MAINTENANT*/
 
 /*SIGNTURE*/
@@ -2539,7 +2548,12 @@ html {
   }
   @media (max-width: 370px) {
     :root {
-      --border-space-mobile: 20px; /* Valeur modifiée pour les petits écrans */
+      --border-space-mobile: 15px; /* Valeur modifiée pour les petits écrans */
+    }
+  }
+  @media (max-width: 260px) {
+    :root {
+      --border-space-mobile: 5px; /* Valeur modifiée pour les petits écrans */
     }
   }
   
@@ -5619,7 +5633,7 @@ html {
     }
   
     .text-block-2 {
-      font-size: var(--border-space-mobile);
+      font-size: var(--text-size-font-mobile);
       padding-bottom: 10px;
     }
   

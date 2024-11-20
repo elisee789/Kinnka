@@ -2529,7 +2529,7 @@ html {
   }
   @media (max-width: 1200px) {
     :root {
-      --border-space: 50px; /* Valeur modifiée pour les petits écrans */
+      --border-space: 150px; /* Valeur modifiée pour les petits écrans */
     }
   }
   

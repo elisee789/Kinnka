@@ -2508,7 +2508,7 @@ html {
     --none: #e0315b;
     --flowui-component-library--primary-lighter: #f7f5ff;
     --black: black;
-    --border-space: 140px;
+    --border-space: 150px;
    
     --border-space-mobile: 30px;
     --text-size-font-mobile: 17px;
@@ -2529,7 +2529,17 @@ html {
   }
   @media (max-width: 1200px) {
     :root {
-      --border-space: 150px; /* Valeur modifiée pour les petits écrans */
+      --border-space: 50px; /* Valeur modifiée pour les petits écrans */
+    }
+  }
+  @media (min-width: 1500px) {
+    :root {
+      --border-space: 250px; /* Valeur modifiée pour les petits écrans */
+    }
+  }
+  @media (max-width: 370px) {
+    :root {
+      --border-space-mobile: 20px; /* Valeur modifiée pour les petits écrans */
     }
   }
   
